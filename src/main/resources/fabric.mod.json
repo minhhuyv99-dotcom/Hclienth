@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "autobuilder",
+  "version": "${version}",
+  "name": "AutoBuilder",
+  "description": "Schematic builder — GUI, scaffold, void bridge, inventory, food. 1.21.1",
+  "authors": ["VANTA"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.vanta.autobuilder.AutoBuilderMod"]
+  },
+  "mixins": ["autobuilder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "~1.21.1"
+  }
+}
