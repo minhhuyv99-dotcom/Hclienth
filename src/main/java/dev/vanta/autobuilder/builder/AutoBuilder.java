@@ -514,3 +514,4 @@ public class AutoBuilder {
             }
         }
         return Vec3d.ofCenter(target.add(1, 0,
+                                         }
