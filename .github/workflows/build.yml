@@ -1,4 +1,5 @@
-name: Build AutoBuilder Mod
+ - name: Build mod
+        run: gradle build --no-daemon --warning-mode none
 
 on:
   push:
