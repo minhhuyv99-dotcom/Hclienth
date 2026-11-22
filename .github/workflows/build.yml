@@ -22,9 +22,3 @@ jobs:
 
       - name: Build mod
         run: gradle build --no-daemon --warning-mode none
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: autobuilder-jar
-          path: build/libs/
-          if-no-files-found: warn
